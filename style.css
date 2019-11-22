@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+section {
+  width: 1263px;
+  height: 500px;
+
+}
+
+#header .top {
+  width: 1263px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+
+}
+
+#header h2 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#header .nav-bar {
+  width: 600px;
+}
+
+#header .nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header .nav-bar a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 1.5rem;
+}
+
+#header .black-header {
+  width: 20px;
+  margin-right: 1rem;
+  margin-left: 2rem;
+}
+
+#header .npm-logo {
+  width: 70px;
+  margin-left: 2rem;
+}
+
+#header .magnifying-glass {
+  width: 20px;
+  margin-left: 1rem;
+}
+
+#header .button-search {
+  background-color: rgba(0, 0, 0, .05);
+  height: 35px;
+  width: 900px;
+  margin-right: 9rem;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#header .search-packages {
+  background-color: rgba(0, 0, 0, .05);
+  height: 35px;
+  width: 800px;
+  border-style: none;
+}
+
+#header .search {
+  background-color: rgb(251, 62, 68);
+  height: 35px;
+  width: 100px;
+  border-style: none;
+}
+
+#header .button-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+#header .grey {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 30px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, .7);
+  border: 1px solid rgba(0, 0, 0, .7);
+  margin-left: -100px;
+}
+
+#header .none {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 30px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, .7);
+  margin-left: -10px;
+}
+
+#amazing {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(232, 217, 217, .3);
+  height: 600px;
+}
+
+#amazing h1 {
+  font-size: 5rem;
+}
+
+#amazing>article {
+  font-weight: 400;
+  font-size: 1.25rem;
+  width: 600px;
+}
+
+#amazing .button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 65px;
+}
+
+#amazing .red {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FB3B49;
+  box-shadow: 8px 8px 0 rgba(251, 59, 73, .2);
+  width: 200px;
+  height: 50px;
+  text-decoration: none;
+  color: white;
+}
+
+#amazing .white {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 200px;
+  height: 50px;
+  text-decoration: none;
+  color: black;
+  margin-left: 100px;
+}
+
+#open-source {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 65px;
+}
+
+#open-source .triangle-hexagon {
+  width: 300px;
+}
+
+#open-source>article {
+  font-style: italic;
+  width: 700px;
+}
+
+#open-source h3 {
+  font-size: 2em;
+  background-color: rgba(255, 204, 53, .4);
+}
+
+#features .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 65px;
+}
+
+#features .picture-box {
+  width: 40px;
+}
+
+#features .box {
+  text-align: left;
+  width: 40%;
+  height: 40%;
+  margin-top: 40px;
+  box-sizing: border-box;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+#features>a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  box-shadow: 8px 8px 0 rgba(128, 83, 35, .2);
+  width: 400px;
+  height: 50px;
+  margin-left: 400px;
+  text-decoration: none;
+  margin-top: 65px;
+}
+
+#features h4 {
+  color: #ED1C24;
+}
